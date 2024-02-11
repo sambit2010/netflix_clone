@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Kanit:wght@300;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assests/img.jpg);
+    height: 80vh;
+    background-position: center center ;
+    background-size: max(1200px,100vw);
+    /* background-repeat: no-repeat; */
+    position: relative;
+   
+   
+}
+/* .box{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    
+    top: 0;
+    opacity: 0.44;
+
+
+ } */
+nav{
+    display: flex;
+    max-width: 80vw;
+   justify-content: space-between;
+   align-items: center;
+   height: 62px;
+   margin: auto;
+  
+   /* padding: 0px 34px; */
+   /* text-align: center; */
+}
+/* .in{
+    display: flex;
+    max-width: 60vw;
+   justify-content: space-between;
+   align-items: center;
+   height: 62px;
+} */
+
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* position: relative; */
+    gap: 23px;
+    padding:0px 23px;
+}
+.hero > :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+    .hero> :nth-child(2){
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+    }
+    .hero>:nth-child(3){
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+    }
+/* .line{
+      height: 5px;
+      background-color: rgb(20, 20, 20);
+    } */
+/* .enjoy {
+    color: white;
+    display: grid;
+    /* grid: 1fr 1fr;
+    grid-template-rows:1fr 1fr; */
+    /* padding: 30px; */
+/* }  */
+
+.line {
+    background-color: rgb(83, 83, 83);
+    height: 5px;
+}
+.btn{
+    padding: 17px 24px;
+    background-color: rgb(231, 29, 29);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+
+.email{
+    padding: 13px 34px;
+     background-color: rgba(23, 23, 23, 0.2);
+    border-radius: 5px;
+    gap:3px;
+    font-size: 24px;
+
+
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.red {
+    background-color: rgb(235, 27, 27);
+    color: white;
+    font-weight: 200;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    gap: 3px;
+ } 
+
+/* .in {
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+   
+
+} */
+
+.text {
+    background-color: rgba(23, 23, 23, 0.2);
+    color: black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* border-radius: 4px; */
+}
+
+.button {
+    cursor: pointer;
+}
+
+/* .enjoy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.e1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.download {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* flex-direction: column; */
+   
+
+}
+
+.e2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column
+}
+
+.f2 {
+    display: flex;
+    background-color: rgb(29, 28, 28);
+    height: 50px;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    padding: 4px 5px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+.f2:hover{
+    background-color: grey;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x {
+    padding: 30px;
+}
+
+footer {
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    /* padding: 23px 320px; */
+    margin: 23px 320px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;*/
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 1fr ;
+    gap: 4px;
+
+
+}
+
+.in1 {
+    padding: 3px 4px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: rgba(46, 45, 45, 0.637);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(151, 5, 5);
+}
